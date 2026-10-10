@@ -1,0 +1,31 @@
+
+# ==========================================
+# ROOMLY - BACKEND DEPENDENCIES
+# ==========================================
+
+# FastAPI Backend
+fastapi
+uvicorn[standard]
+pydantic
+email-validator
+python-dotenv
+
+# PostgreSQL and Database Migrations
+sqlalchemy
+psycopg[binary,pool]
+alembic
+pgvector
+
+# Authentication and Security
+argon2-cffi
+PyJWT
+
+# LangGraph AI Agent
+langgraph
+langchain-core
+langgraph-checkpoint-postgres
+langchain-groq
+
+# RAG and Hugging Face Embeddings
+sentence-transformers
+pypdf
